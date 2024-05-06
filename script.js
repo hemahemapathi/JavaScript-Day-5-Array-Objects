@@ -20,3 +20,11 @@ var resumeData = {
       }
     }
   }
+   //for.of
+   for (var element of Object.keys(resumedata)) {
+    console.log(resumedata[element]);
+   } 
+   //for-Each
+for (const [key, value] of Object.entries(resumedata)) {
+  console.log(`${key}: ${value}`);
+}
